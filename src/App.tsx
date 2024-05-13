@@ -2,7 +2,7 @@ import './App.css'
 import { Route ,Routes } from 'react-router-dom'
 import { Sender } from './components/Sender'
 import { Receiver } from './components/Receiver'
-import { Test } from './components/test'
+import { Test } from './components/Test'
 function App() {
   return (
     <div>
