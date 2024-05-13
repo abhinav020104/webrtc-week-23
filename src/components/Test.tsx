@@ -1,4 +1,4 @@
-export function test(){
+export function Test(){
     return(
         <div>
             this is test !
