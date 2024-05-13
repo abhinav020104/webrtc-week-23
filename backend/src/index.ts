@@ -1,5 +1,7 @@
 import { WebSocket, WebSocketServer } from 'ws';
-
+const express = require("express");
+const app = express();
+// const httpServer = app.listen(4000 , )
 const wss = new WebSocketServer({ port: 8080 } , ()=>{
   console.log("websocket server started at port 8080");
 });
