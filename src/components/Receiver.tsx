@@ -3,7 +3,7 @@ import { useRef } from "react";
 export const Receiver = ()=>{
     const videoRef = useRef<HTMLVideoElement>(null)
     useEffect(()=>{
-        const socket = new WebSocket("https://webrtc-week-23.onrender.com");
+        const socket = new WebSocket("ws://webrtc-week-23.onrender.com");
         socket.onopen = ()=>{
             socket.send(JSON.stringify({type:"receiver"}));
         }
